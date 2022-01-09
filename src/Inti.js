@@ -1,5 +1,5 @@
 import './Inti.css';
-import Todo from './todo/Todo';
+import Todo from './komponen/todo/Todo';
 
 const Inti = () => {
     return (
