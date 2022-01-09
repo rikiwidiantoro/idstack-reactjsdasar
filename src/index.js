@@ -5,11 +5,13 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 import Coba from './coba';
+import Inti from './Inti';
 
 ReactDOM.render(
   <React.StrictMode>
     {/* <App /> */}
-    <Coba />
+    {/* <Coba /> */}
+    <Inti />
   </React.StrictMode>,
   document.getElementById('root')
 );
