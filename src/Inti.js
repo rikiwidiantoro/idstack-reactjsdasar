@@ -1,6 +1,7 @@
 import './Inti.css';
 import Todo from './komponen/todo/Todo';
 
+
 const Inti = () => {
     return (
         <div className='inti'>

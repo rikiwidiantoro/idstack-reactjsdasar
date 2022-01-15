@@ -1,13 +1,16 @@
 import './TodoList.css'
 
-const TodoList = () => {
+const TodoList = (props) => {
     return (
         <div>
             <ul>
-                <li>Riki Widiantoro</li>
-                <li>Learn React</li>
-                <li>Build Tools</li>
-                <li>Record</li>
+                {/* menggunakan {} karena dalam JSX tidak mendukung logika */}
+                {
+                    props.dataTodos.map((todo) => {
+                        // { id: 1, title: objek }
+                        return <li key={todo.id}>{todo.title}</li>
+                    })
+                }
             </ul>
         </div>
     )
